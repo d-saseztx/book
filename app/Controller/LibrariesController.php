@@ -50,7 +50,6 @@ class LibrariesController extends AppController {
 			);
 			}
 			$this->set('libraries', $this->paginate());
-			//debug($this->request->data['Library']['category_id']);
 			//exit;
 			$this->render('index');
 		}
